@@ -7,6 +7,6 @@ $(document).ready(function(){
 		if (speed > 200)
 			speed = 0;
 		$('#speed').html(speed+'mph')
-	},200)
+	},50)
 })
 </script>
