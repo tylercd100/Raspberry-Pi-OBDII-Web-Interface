@@ -35,6 +35,8 @@ $cakeDescription = __d('cake_dev', 'OBDII');
 		echo $this->Html->css('bootstrap.min.css');
 		echo $this->Html->css('default.css');
 		echo $this->fetch('css');
+
+		echo $this->Html->script('jquery');
 		echo $this->fetch('script');
 	?>
 </head>
