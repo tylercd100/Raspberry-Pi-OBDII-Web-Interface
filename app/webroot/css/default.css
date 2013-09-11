@@ -1,0 +1,16 @@
+body{
+}
+
+#container{
+	background: white;
+	width: 640px;
+	height: 480px;
+	margin: auto;
+}
+
+#speed{
+	line-height: 480px;
+	width: 100%;
+	text-align: center;
+	font-size: 140px;
+}
