@@ -4,7 +4,7 @@ $(document).ready(function(){
 	var speed = 25;
 	var interval = setInterval(function(){
 		speed+=1;
-		if speed > 200
+		if (speed > 200)
 			speed = 0;
 		$('#speed').html(speed+'mph')
 	},200)
